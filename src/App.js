@@ -1,5 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Orders from './components/Orders';
+import SideBar from './components/SideBar';
 
 function App() {
   return (
@@ -8,7 +10,8 @@ function App() {
               <Navbar />
           </div>
           <div className="body">
-          
+              <SideBar />
+              <Orders/>
           </div>
     </div>
   );

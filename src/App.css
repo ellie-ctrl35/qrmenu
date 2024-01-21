@@ -16,12 +16,12 @@ color:#fff;
     justify-content:center;
 }
 .body{
-background: #fff;
-    width:99%;
+    width:98%;
     height:85%;
     display:flex;
     align-items:center;
-    justify-content:center;
+    justify-content:space-between;
+    flex-direction:row;
 }
 .nav{
 width:99%;
@@ -99,4 +99,93 @@ a:active{
 .profile-img{
     border-radius:0.2rem;
 }
-
+.sidebar{
+width:20%;
+    height:100%;
+    background-color:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+gap:1rem;
+    border-radius:0.5rem;
+    padding-top:1rem;
+}
+.orders-container{
+    width:78%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:#fff;
+    justify-content:center;
+    border-radius:0.5rem;
+}
+.orders{
+    width:98%;
+height:96%;
+background:black;
+border-radius:0.5rem;
+}
+.sidebar-item{
+width:94%;
+    height:8%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    background:purple;
+    border-radius:0.7rem;
+}
+.icon{
+    height:80%;
+width:15%;
+background-color:limegreen;
+border-radius:50%;
+}
+.texts{
+    width:70%;
+height:85%;
+display:flex;
+flex-direction:column;
+margin:0;
+padding:0;
+justify-content:center;
+}
+.pd{
+    font-size:0.9rem;
+    height:40%;
+    font-weight:500;
+    text-align:start;
+}
+.pt {
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-align: start;
+}
+.bottom-sidebar{
+    height:40%;
+width:94%;
+background:yellow;
+margin-top:1.65rem;
+border-radius:0.5rem;
+display:flex;
+flex-direction:column;
+}
+.addbtn {
+    width: 95%;
+    height: 20%;
+    background: black;
+    align-self: center;
+    border: none;
+    border-radius: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-top: 73%;
+    color: white;
+    font-size:1.06rem;
+    font-family:'Poppins'
+}
+.ficon{
+    position: absolute;
+    height:12rem;
+    left:1.65rem;
+}
